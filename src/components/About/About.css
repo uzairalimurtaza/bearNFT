@@ -1,0 +1,95 @@
+#about {
+    height: auto;
+    background-color: #050713;
+    padding-bottom: 50px;
+    background-image: url('../../assets/about-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+    margin-bottom: -3vw;
+}
+
+.about-text{
+    padding-top: 120px;
+    max-width: 700px;
+    font-size: 20px;
+    text-align: justify
+}
+
+.right-sec-about {
+    font-size: 22px;
+}
+
+.what-text{
+    position: absolute;
+    color: white;
+    top: 715px;
+    left: 550px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.karma-text {
+    color: #355651;
+}
+
+.bear {
+    position: absolute;
+    right: 50px;
+}
+
+.pic1 {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+}
+.pic2 {
+    width: 150px;
+    height: 200px;
+}
+.pic3 {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+
+}
+.pic4 {
+    width: 150px;
+    height: 200px;
+}
+
+
+
+@media (min-width: 768px) and (max-width:1229px) {
+    .pic1,.pic2 {
+        margin-right: 75px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .bear {
+        display: none;
+    }
+    .pic1,.pic3 {
+        margin-top: 1.5rem;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 440px) {
+    .about-text{
+        font-size: 15px;
+        text-align: center;
+    }
+    .bear {
+        display: none;
+    }
+    .pic1,.pic3 {
+        margin-top: 1.5rem;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,11 @@
+#gallery {
+    background-image: url('../../assets/mint-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 120vh;
+    max-height: none;
+    margin-top: -143px;
+    padding-top: 143px;
+    margin-bottom: 0px;
+}

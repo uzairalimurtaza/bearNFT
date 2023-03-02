@@ -1,0 +1,250 @@
+#admin {
+    background-image: url('../../assets/mint-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-height: none;
+    margin-top: -143px;
+    padding-top: 143px;
+    margin-bottom: 0px;
+}
+
+#admin-x {
+    background-image: url('../../assets/bg-update.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-height: none;
+    margin-top: -143px;
+    padding-top: 143px;
+    margin-bottom: 0px;
+}
+
+.admin-false {
+    height: 113vh;
+}
+
+.admin-true {
+    height: max-content;
+}
+
+.admin-heading {
+    font-size: 26px !important;
+}
+
+.total-minted-value {
+    color: white;
+    font-family: 12px !important;
+    font-weight: 100 !important;
+}
+
+.break {
+    word-break: break-all;
+}
+
+.data-heading {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.admin-mint-value {
+    border: 2px white solid;
+    width: 195px;
+    color: white !important;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.admin-mint-btn {
+    width: 300px;
+    margin-bottom: 0px;
+    opacity: 1;
+    color: white;
+    border: 2px white solid;
+    font-size: 16px;
+}
+
+.admin-mint-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.refresh-icon:hover {
+    cursor: pointer;
+}
+
+.static-data {
+    margin-bottom: 5px !important;
+}
+
+.btns {
+    padding: 8px 10px;
+    align-self: center;
+    flex: 0 0 auto;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    background-color: transparent;
+    transition: border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: GlacialindifferenceBold;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 180px;
+}
+
+.btns:hover {
+    background-color: white;
+    color: black;
+}
+
+.refresh-btn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: chocolate;
+    width: 180px;
+    color: black;
+}
+
+.input-bg {
+    font-size: 13px;
+    background-color: #020C16;
+    color: white;
+}
+
+input::placeholder { 
+    font-size: 13px;
+}
+
+.input-bg:focus {
+    background-color: #020C16;
+    color: white;
+}
+
+.mint-user {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+    padding-top: 7px;
+    /* color: #3E4446; */
+    border: 2px dashed #3E4446;
+}
+
+.right-content {
+    justify-content: end;
+}
+
+.left-content {
+    justify-content: start;
+}
+
+.select-bg {
+    font-size: 13px;
+    background-color:#020C16 ;
+    color: white;
+}
+
+.withdraw-btn {
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reload-btn {
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.admin-mint-opt {
+    width: 300px;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
+.operator {
+    width: 50px;
+}
+
+.account-heading-text {
+    color: #355651;
+}
+
+.admin-mint-hr {
+    color: #FFFFFF;
+    width: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.admin-mint-info {
+    font-size: 14px;
+}
+
+.admin-mint-heading {
+    font-size: 40px;
+}
+
+.btn-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .right-sec {
+        margin-left: 10px;
+    }
+
+    #admin {
+        height: 111vh;
+    }
+
+    .admin-mint-hr {
+        width: 90%;
+    }
+
+    .admin-mint-btn {
+        width: 296px;
+    }
+    
+    .btns {
+        padding: 7px 8px;
+        font-size: 12px;
+    }
+
+    .withdraw-btn {
+        height: 50px;
+    }
+
+    .reload-btn {
+        height: 50px;
+    }
+
+    .right-content {
+        justify-content: center;
+    }
+
+    .left-content {
+        justify-content: center;
+    }
+
+    .btn-grp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+

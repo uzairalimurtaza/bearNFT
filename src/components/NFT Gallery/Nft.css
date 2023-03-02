@@ -1,0 +1,17 @@
+.card-bg {
+    background-color: #355651 !important;
+}
+
+.card-border {
+    border: 0px !important;
+    border-radius: 20px;
+}
+
+.opensea-btn {
+    background-color:white ;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    color: black;
+    font-size: 13px;
+    /* padding: 7px; */
+}

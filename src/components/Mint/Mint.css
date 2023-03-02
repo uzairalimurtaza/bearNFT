@@ -1,0 +1,171 @@
+#mint {
+    background-image: url('../../assets/bg-update.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 111vh;
+    max-height: none;
+    margin-top: -143px;
+    margin-bottom: 0px;
+}
+
+.hero-crystal-image {
+    position: absolute;
+    left: auto;
+    top: 0px;
+    right: -150px;
+    bottom: auto;
+    overflow: visible;
+    width: 550px;
+    max-width: 60%;
+    margin-top: auto;
+    margin-right: 23px;
+    padding-top: 0px;
+    -o-object-fit: fill;
+    object-fit: fill;
+    will-change: transform;
+    transform: translate3d(-13.7712px, -29.9082px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.mint-heading {
+    font-size: 56px;
+    margin-top: 200px;
+}
+
+.mint-div {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 17%;
+    height: 17%;
+}
+
+.mint-bear {
+    width: 17%;
+    height: 17%;
+    padding-bottom: 20px;
+    /* transform: translateY(0%) translateZ(0px); */
+}
+
+.text-box {
+    position: relative;
+    max-width: 650px;
+}
+
+.text-box._450px {
+    position: relative;
+    max-width: 450px;
+}
+
+.image {
+    margin-top: 200px;
+    width: 400px;
+}
+  
+.operator {
+    background-color: transparent !important;
+    border:white 2px solid;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700 !important;
+}
+  
+.operator:hover {
+    background-color: white !important;
+    color: black;
+}
+
+.mint-value {
+    border: 2px white solid;
+    width: 195px;
+    color: white !important;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.mint-btn {
+    width: 300px;
+    margin-bottom: 0px;
+    opacity: 1;
+    color: black;
+    border: 2px white solid;
+    background-color: white;
+    font-size: 16px;
+}
+
+.mint-btn:hover {
+    color: black;
+}
+
+.account-heading-text {
+    color: white;
+}
+
+.address {
+    font-size: 15px;
+}
+
+@media (max-width: 540px) {
+
+    .account-heading-text {
+        font-size: 20px;
+    }
+
+    .mint-btn {
+        width: 250px;
+    }
+
+    .logo {
+        width: 40%;
+        height: 40%;
+    }
+    
+    .mint-bear {
+        width: 40%;
+        height: 40%;
+    }
+    
+    .address {
+        font-size: 14px;
+    }
+
+    .mint-div {
+        margin-top: 210px;
+    }
+
+    .mint-value {
+        border: 2px white solid;
+        width: 140px;
+        color: white !important;
+        padding-top: 8px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .hero-crystal-image {
+        position: absolute;
+        left: auto;
+        top: 470px;
+        right: 37px;
+        bottom: auto;
+    }
+
+    .mint-heading {
+        font-size: 50px;
+        margin-top: 200px;
+    }
+
+    .bear {
+        padding-bottom: 20px;
+    }
+    
+}
